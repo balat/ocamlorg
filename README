@@ -5,3 +5,14 @@ It adds the Ocsimore extensions needed for ocaml.org
 It generates ocamlorg.cma, to be loaded in Ocsigen Server as an Eliom module.
 
 
+== INSTALL
+
+make
+
+Copy the cma and cmxa where you want them
+
+Adapt and add the following line to Ocsigen Server's config file
+(after ocsimore's modules)
+
+<eliommodule module="<path to>/ocamlorg.cma"/>
+
