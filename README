@@ -1,0 +1,7 @@
+== Specific source code for ocaml.org
+
+It adds the Ocsimore extensions needed for ocaml.org
+
+It generates ocamlorg.cma, to be loaded in Ocsigen Server as an Eliom module.
+
+
