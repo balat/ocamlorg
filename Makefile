@@ -45,8 +45,6 @@ local: ${DIRS} local/var/www/static local/var/www/ocsimore_static
 
 local/var/www/static:
 	mkdir -p $@
-	#sh files/update-symlinks.sh
-	cd files/data && for f in $$(ls); do ln -s ../../../../files/data/$$f ../../local/var/www/static/; done
 
 local/var/www/ocsimore_static:
 	mkdir -p $(basename local/var/www)
